@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'widgets/container/container_barrer.dart';
+import 'widgets/column/column.dart';
 
 //import 'widgets/text/text.dart';
 //import 'widgets/container/container.dart';
@@ -23,7 +24,8 @@ class MyApp extends StatelessWidget {
       ), */
       //home: MyContainer(),
       //home: ContainerTwo(),
-      home: ContainerThree(),
+      //home: ContainerThree(),
+      home: ColumnOne(),
     );
   }
 }
