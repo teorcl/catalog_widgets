@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
-import 'widgets/text.dart';
-import 'widgets/container.dart';
+
+import 'widgets/container/container_barrer.dart';
+
+//import 'widgets/text/text.dart';
+//import 'widgets/container/container.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +21,9 @@ class MyApp extends StatelessWidget {
         text:
             'Tempor aliquip anim sunt qui nostrud laboris tempor enim quis culpa et ex pariatur sit.',
       ), */
-      home: MyContainer(),
+      //home: MyContainer(),
+      //home: ContainerTwo(),
+      home: ContainerThree(),
     );
   }
 }
