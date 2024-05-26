@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
-class ColumnOne extends StatelessWidget {
-  const ColumnOne({super.key});
+class ColumnTwo extends StatelessWidget {
+  const ColumnTwo({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -12,20 +13,18 @@ class ColumnOne extends StatelessWidget {
         color: Colors.black,
       ),
       child: Container(
-        padding: const EdgeInsets.symmetric(vertical: 50),
+        padding: const EdgeInsets.symmetric(vertical: 50, horizontal: 12),
         color: Colors.yellow,
         child: Center(
           child: Container(
             color: Colors.grey,
             child: Column(
-              // Si no le ponemos alienación, el widget se expandirá a lo largo de la pantalla
-              mainAxisAlignment: MainAxisAlignment.center,
-              //mainAxisSize: MainAxisSize.min,
               children: [
-                const Text('Hola mundo'),
-                Container(
-                  color: Colors.pinkAccent,
-                  height: 100.0,
+                Expanded(
+                  child: Container(
+                    color: Colors.pinkAccent,
+                    height: 100.0,
+                  ),
                 ),
                 Container(
                   color: Colors.blueAccent,
