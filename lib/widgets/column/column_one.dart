@@ -22,7 +22,11 @@ class ColumnOne extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               //mainAxisSize: MainAxisSize.min,
               children: [
-                const Text('Hola mundo'),
+                Semantics(
+                  label: 'Hola mundo',
+                  enabled: true,
+                  child: const Text('Hola mundo'),
+                ),
                 Container(
                   color: Colors.pinkAccent,
                   height: 100.0,
