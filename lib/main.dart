@@ -1,5 +1,7 @@
+import 'package:catalog_widgets/routes/routes.dart';
 import 'package:catalog_widgets/widgets/flexible/flexible.dart';
 import 'package:catalog_widgets/widgets/rows/row.dart';
+import 'package:catalog_widgets/widgets/stack/stack.dart';
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -39,7 +41,14 @@ class MyApp extends StatelessWidget {
       //home: const ColumnTwo(),
       //home: const RowOne(),
       //home: const FlexibleOne(),
-      home: const FlexibleTwo(),
+      //home: const FlexibleTwo(),
+      //initialRoute: 'column_one',
+      //initialRoute: 'column_two',
+      //initialRoute: 'my_container',
+      //initialRoute: 'container_two',
+      initialRoute: 'container_three',
+      routes: appRoutes,
+      //home: const StackOne(),
     );
   }
 }
