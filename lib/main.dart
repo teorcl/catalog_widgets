@@ -1,6 +1,8 @@
 import 'package:catalog_widgets/routes/routes.dart';
+import 'package:catalog_widgets/routes/routes.dart';
 import 'package:catalog_widgets/widgets/flexible/flexible.dart';
 import 'package:catalog_widgets/widgets/rows/row.dart';
+import 'package:catalog_widgets/widgets/stack/stack.dart';
 import 'package:catalog_widgets/widgets/stack/stack.dart';
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
