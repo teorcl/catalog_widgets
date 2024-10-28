@@ -5,6 +5,7 @@ import 'package:catalog_widgets/widgets/rows/row.dart';
 import 'package:catalog_widgets/widgets/stack/stack.dart';
 import 'package:catalog_widgets/widgets/stack/stack.dart';
 import 'package:device_preview/device_preview.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +17,7 @@ import 'widgets/column/column.dart';
 
 void main() {
   runApp(
-    DevicePreview(builder: (_) => const MyApp(), enabled: !kReleaseMode
+    DevicePreview(builder: (_) => const MyApp(), enabled: kReleaseMode
         // true, // Si esto es falso, no se mostrará el dispositivo de vista previa
         ),
   );
@@ -51,7 +52,8 @@ class MyApp extends StatelessWidget {
       //initialRoute: 'container_two',
       //initialRoute: 'container_three',
       //initialRoute: 'rich_text_one',
-      initialRoute: 'text_semantics',
+      //initialRoute: 'overflow_one',
+      initialRoute: 'stack_one',
       routes: appRoutes,
       //home: const StackOne(),
     );

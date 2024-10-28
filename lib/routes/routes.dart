@@ -1,11 +1,5 @@
-import 'package:catalog_widgets/accesibility/text_semantics.dart';
 import 'package:flutter/material.dart';
-import 'package:catalog_widgets/widgets/column/column.dart';
-import 'package:catalog_widgets/widgets/container/container_barrer.dart';
-import 'package:catalog_widgets/widgets/flexible/flexible.dart';
-import 'package:catalog_widgets/widgets/rows/row.dart';
-
-import '../widgets/rich_text/rich_text.dart';
+import '../widgets/widgets.dart';
 
 final Map<String, Widget Function(BuildContext)> appRoutes = {
   'column_one': (_) => const ColumnOne(),
@@ -22,4 +16,6 @@ final Map<String, Widget Function(BuildContext)> appRoutes = {
         currencySymbol: '\$',
         semanticsLabel: '5890.89 pesos',
       ),
+  'overflow_one': (_) => const OverflowOne(),
+  'stack_one': (_) => const StackOne(),
 };

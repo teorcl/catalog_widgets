@@ -11,6 +11,8 @@ class ContainerTwo extends StatelessWidget {
       alignment: Alignment
           .center, // Si quito esta linea inmediatamente se expande a toda la pantalla
       color: Colors.white,
+      width: 400,
+      height: 600,
       child: DefaultTextStyle(
         style: const TextStyle(),
         // Aca el container no sabe donde alinearse, a diferencia cuando es el hijo de un center

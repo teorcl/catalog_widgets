@@ -19,6 +19,7 @@ class TextSemantics extends StatelessWidget {
       symbol: currencySymbol,
       decimalDigits: 2,
       locale: 'es_ES',
+      customPattern: '¤#,##0.00',
     ).format(amount);
     return Semantics(
       label: semanticsLabel,

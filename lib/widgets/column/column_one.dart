@@ -19,14 +19,15 @@ class ColumnOne extends StatelessWidget {
             color: Colors.grey,
             child: Column(
               // Si no le ponemos alienación, el widget se expandirá a lo largo de la pantalla
-              mainAxisAlignment: MainAxisAlignment.center,
-              //mainAxisSize: MainAxisSize.min,
+              //mainAxisAlignment: MainAxisAlignment.center,
+              mainAxisSize: MainAxisSize.min,
               children: [
                 Semantics(
                   label: 'Hola mundo',
                   enabled: true,
                   child: const Text('Hola mundo'),
                 ),
+                Spacer(),
                 Container(
                   color: Colors.pinkAccent,
                   height: 100.0,
