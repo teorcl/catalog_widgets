@@ -6,3 +6,6 @@ export '../widgets/rich_text/rich_text.dart';
 export 'package:catalog_widgets/accesibility/text_semantics.dart';
 export '../widgets/column/column.dart';
 export '../widgets/stack/stack.dart';
+export '../widgets/scaffolds/scaffolds.dart';
+export '../widgets/safe_area/safe_area.dart';
+export '../widgets/single_child_scrollview/scroll_view.dart';

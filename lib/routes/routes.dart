@@ -18,4 +18,8 @@ final Map<String, Widget Function(BuildContext)> appRoutes = {
       ),
   'overflow_one': (_) => const OverflowOne(),
   'stack_one': (_) => const StackOne(),
+  'scaffold_one': (_) => const ScaffoldOne(),
+  'safe_area_one': (_) => const SafeAreaOne(),
+  'single_scroll_view_one': (_) => const SingleChildScrollViewOne(),
+  'single_scroll_view_two': (_) => const SingleChildScrollViewTwo(),
 };
