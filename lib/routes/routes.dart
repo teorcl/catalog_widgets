@@ -22,4 +22,8 @@ final Map<String, Widget Function(BuildContext)> appRoutes = {
   'safe_area_one': (_) => const SafeAreaOne(),
   'single_scroll_view_one': (_) => const SingleChildScrollViewOne(),
   'single_scroll_view_two': (_) => const SingleChildScrollViewTwo(),
+  'list_view_one': (_) => const ListViewOne(),
+  'list_view_two': (_) => const ListViewTwo(),
+  '/list_view_builder': (_) => const ListViewBuilder(),
+  'list_view_separated': (_) => const ListViewSeparated(),
 };

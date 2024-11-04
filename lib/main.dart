@@ -56,8 +56,11 @@ class MyApp extends StatelessWidget {
       //initialRoute: 'stack_one',
       //initialRoute: 'scaffold_one',
       //initialRoute: 'safe_area_one',
-      initialRoute: 'single_scroll_view_one',
+      //initialRoute: 'single_scroll_view_one',
       //initialRoute: 'single_scroll_view_two',
+      //initialRoute: 'list_view_one',
+      //initialRoute: 'list_view_two',
+      initialRoute: 'list_view_separated',
       routes: appRoutes,
       //home: const StackOne(),
     );
