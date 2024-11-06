@@ -10,3 +10,6 @@ export '../widgets/scaffolds/scaffolds.dart';
 export '../widgets/safe_area/safe_area.dart';
 export '../widgets/single_child_scrollview/scroll_view.dart';
 export '../widgets/list_view/list_view.dart';
+export '../widgets/fonts/fonts.dart';
+export '../widgets/custom_icons/custom_icon.dart';
+export '../widgets/working_with_images/images.dart';

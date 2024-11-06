@@ -26,4 +26,7 @@ final Map<String, Widget Function(BuildContext)> appRoutes = {
   'list_view_two': (_) => const ListViewTwo(),
   '/list_view_builder': (_) => const ListViewBuilder(),
   'list_view_separated': (_) => const ListViewSeparated(),
+  'fonts_one': (_) => const FontsOne(),
+  'custom_icon_one': (_) => const CustomIconOne(),
+  'images_one': (_) => const ImagesOne(),
 };
