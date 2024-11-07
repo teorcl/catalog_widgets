@@ -29,4 +29,5 @@ final Map<String, Widget Function(BuildContext)> appRoutes = {
   'fonts_one': (_) => const FontsOne(),
   'custom_icon_one': (_) => const CustomIconOne(),
   'images_one': (_) => const ImagesOne(),
+  'images_two': (_) => const ImagesTwo(),
 };

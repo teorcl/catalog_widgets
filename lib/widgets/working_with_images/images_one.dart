@@ -12,7 +12,10 @@ class ImagesOne extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            Image.asset('assets/images/ironman.png'),
+            Image.asset(
+              'assets/images/ironman.png',
+              width: 300,
+            ),
           ],
         ),
       ),
