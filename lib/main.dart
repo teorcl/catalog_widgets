@@ -17,7 +17,7 @@ import 'widgets/column/column.dart';
 
 void main() {
   runApp(
-    DevicePreview(builder: (_) => const MyApp(), enabled: kReleaseMode
+    DevicePreview(builder: (_) => const MyApp(), enabled: !kReleaseMode
         // true, // Si esto es falso, no se mostrará el dispositivo de vista previa
         ),
   );
@@ -64,7 +64,8 @@ class MyApp extends StatelessWidget {
       //initialRoute: 'fonts_one',
       //initialRoute: 'custom_icon_one',
       //initialRoute: 'images_one',
-      initialRoute: 'images_two',
+      //initialRoute: 'images_two',
+      initialRoute: 'aspect_ratio_one',
       routes: appRoutes,
       //home: const StackOne(),
     );

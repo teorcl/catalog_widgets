@@ -13,3 +13,4 @@ export '../widgets/list_view/list_view.dart';
 export '../widgets/fonts/fonts.dart';
 export '../widgets/custom_icons/custom_icon.dart';
 export '../widgets/working_with_images/images.dart';
+export '../widgets/aspect_ratio/aspect_ratio.dart';

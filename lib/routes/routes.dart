@@ -30,4 +30,5 @@ final Map<String, Widget Function(BuildContext)> appRoutes = {
   'custom_icon_one': (_) => const CustomIconOne(),
   'images_one': (_) => const ImagesOne(),
   'images_two': (_) => const ImagesTwo(),
+  'aspect_ratio_one': (_) => const AspectRatioOne(),
 };
