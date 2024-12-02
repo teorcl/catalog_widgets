@@ -31,4 +31,5 @@ final Map<String, Widget Function(BuildContext)> appRoutes = {
   'images_one': (_) => const ImagesOne(),
   'images_two': (_) => const ImagesTwo(),
   'aspect_ratio_one': (_) => const AspectRatioOne(),
+  'home_page': (_) => const HomePage(),
 };

@@ -65,7 +65,7 @@ class MyApp extends StatelessWidget {
       //initialRoute: 'custom_icon_one',
       //initialRoute: 'images_one',
       //initialRoute: 'images_two',
-      initialRoute: 'aspect_ratio_one',
+      initialRoute: 'home_page',
       routes: appRoutes,
       //home: const StackOne(),
     );
