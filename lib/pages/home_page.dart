@@ -1,4 +1,6 @@
+import 'package:catalog_widgets/widgets/dialogs/bottom_sheet_dialog.dart';
 import 'package:catalog_widgets/widgets/dialogs/confirm_dialog.dart';
+import 'package:catalog_widgets/widgets/dialogs/cupertino_dialog.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -150,6 +152,24 @@ class HomePage extends StatelessWidget {
             onTap: () async {
               final response = await showConfirmDialog(context);
               debugPrint('Response: $response');
+            },
+          ),
+          ListTile(
+            title: const Text('Show Cupertino Dialog'),
+            onTap: () async {
+              await showDialogWithCupertinoStyle(
+                context,
+                title: 'Cupertino Dialog',
+                content: 'This is a Cupertino Dialog',
+                acceptText: 'Ok',
+                cancelText: 'Cancel',
+              );
+            },
+          ),
+          ListTile(
+            title: const Text('Show Bottom Sheet Dialog'),
+            onTap: () async {
+              await showBottomSheetDialog(context);
             },
           ),
         ],
